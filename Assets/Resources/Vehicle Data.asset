@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b86833333c246c48e7852acc5c671ed, type: 3}
+  m_Name: Vehicle Data
+  m_EditorClassIdentifier: 
+  vehicles:
+  - isUnlocked: 1
+    name: V1
+    icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    price: 100
+  - isUnlocked: 0
+    name: V2
+    icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    price: 200
+  - isUnlocked: 0
+    name: V3
+    icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    price: 350
